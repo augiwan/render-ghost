@@ -6,6 +6,7 @@ const externalURL = process.env.url || process.env.RENDER_EXTERNAL_URL;
 config.mail.transport = "SMTP";
 config.mail.options = {};
 config.mail.options.service = "Mailgun";
+config.mail.options.auth = {};
 config.mail.options.auth.user = process.env.mail__options__auth__user;
 config.mail.options.auth.pass = process.env.mail__options__auth__pass;
 if (externalURL) {

@@ -16,7 +16,6 @@
       "service": "Mailgun",
       "host": "smtp.eu.mailgun.org",
       "port": 587,
-      "secureConnection": true,
       "auth": {
         "user": "",
         "pass": ""
